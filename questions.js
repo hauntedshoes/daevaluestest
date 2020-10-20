@@ -1,24 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The freer the markets, the freer the people.",
+        "question": "I have no qualms in telling people what to do.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "I’m not afraid to negotiate with people to make sure my treatment is fair.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -36,25 +18,7 @@ questions = [
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Tariffs on international trade are important to encourage local production.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "I tend to avoid conflict whenever I can.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -63,7 +27,43 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Getting into arguments about topics such as politics and religion does not frighten me.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "If I can avoid disagreeing with someone, I will. I hate to disagree with people.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "People might describe me as ‘blunt’ or ‘straight forward’.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Whenever I’ve gotten into an argument, I’ve felt immediately tense afterwards.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "I would be willing to get into a physical fight if the circumstances are right.",
         "effect": {
             "econ": -10,
             "dipl": 0,
