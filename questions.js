@@ -72,27 +72,27 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Even if I strongly disagreed with someone, I wouldn’t speak up for fear of causing some kind of argument.",
         "effect": {
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Group harmony is of importance to me.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": -5
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "I enjoy competing against people, even when there is explicit acknowledgement of that competition. ",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
