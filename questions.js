@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": +5
         }
     },
     {
@@ -99,36 +99,36 @@ questions = [
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "I need to assert myself so that people don’t abuse me. ",
         "effect": {
             "econ": -10,
             "dipl": 0,
             "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "Conflicts with people affect me physically in a negative way.  ",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "I keep a careful watch on my sense of inner harmony. ",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 5,
             "scty": 0
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "People might see me as frightening when I get angry. ",
         "effect": {
             "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Quality education is a right of all people.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "question": "The means of production should belong to the workers who use them.",
-        "effect": {
-            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
