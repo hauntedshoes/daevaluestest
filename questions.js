@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": +5
+            "scty": 5
         }
     },
     {
@@ -85,7 +85,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": -5
         }
     },
@@ -94,7 +94,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -112,7 +112,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": -5
         }
     },
@@ -121,7 +121,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": 5,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -135,7 +135,16 @@ questions = [
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "I would consider myself difficult to make friends with.",
+        "effect": {
+            "econ": -5,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "If I had to do a group task with people I did not know well it would annoy me.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -144,151 +153,97 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "I can think of four people or more that I share a close bond with (excluding immediate family).",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
+            "econ": 5,
+            "dipl": 10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "I feel as if I am quick to draw boundaries between people in my ‘in group’ and ‘out group’.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "I’m willing to socialise with just about anyone if I had to.",
+        "effect": {
+            "econ": 0,
             "dipl": 10,
-            "govt": 10,
+            "govt": 0,
             "scty": 5
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "I’m not willing to reveal a lot of information to people I have only met recently.",
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "I am known for being open, warm, friendly.",
         "effect": {
-            "econ": 0,
+            "econ": 5,
             "dipl": 10,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Military spending is a waste of money.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "International aid is a waste of money.",
+        "question": "I find myself quick to judge others or find criticism with them – especially if they aren’t close to me. ",
         "effect": {
             "econ": -5,
             "dipl": -10,
             "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My nation is great.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Research should be conducted on an international scale.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Governments should be accountable to the international community.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
-        "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My religious values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
             "scty": -10
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "I like to think of myself as someone with a wide social circle.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -5,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "I don’t mind being the centre of attention at a party.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
             "scty": 0
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "I tend to remain within my ‘group’.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "Even when I don’t someone, I feel the need to please them and get them on my side.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "econ": 10,
+            "dipl": 10,
+            "govt": 0,
+            "scty": -10
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "I end up starting a lot of projects that I rarely finish.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,43 +252,7 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Government surveillance is necessary in the modern world.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The very existence of the state is a threat to our liberty.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Regardless of political opinions, it is important to side with your country.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
-        }
-    },
-    {
-        "question": "All authority should be questioned.",
+        "question": "I am full of energy when I wake up in the morning.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "I know that I don’t have much energy, so I am careful to spend it in the right place at the right time.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,25 +270,16 @@ questions = [
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "I tend to focus on one project at a time, I don’t like multitasking.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
             "govt": -10,
             "scty": 0
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "I am someone who enjoys outdoor physical activity often.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,21 +288,111 @@ questions = [
         }
     },
     {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "People have referred to me as scatter-brained.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "My high amount of energy tends to rub off on other people.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "I want to fill my day with a lot of different activities.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Interactions with other people drain me.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "When I work on a project I tend to get distracted by random things while working on it as if I can’t help it.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": -5
+        }
+    },
+    {
+        "question": "Sometimes I have been told that I talk too fast or too quickly.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "I can finish a project within a matter of days if my energy levels are high enough.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Even though I progress through things slowly, I tend to finish what I start.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Doing chores day in and day out doesn’t lower my energy levels. ",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "My brain seems to only want to focus on one thing on a time. ",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "I frequently find myself physically restless for no reason. ",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "I seem to get tired very easily.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
         }
     },
     {
