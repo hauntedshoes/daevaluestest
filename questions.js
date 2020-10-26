@@ -396,7 +396,16 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "Most people seem comfortable taking a different route to work than me.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I write up timetables and to-do lists so that I can get everything that I need to do in the day, done.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -405,16 +414,7 @@ questions = [
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Religion should play a role in government.",
+        "question": "I can’t imagine living an unstructured life.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "I’m not the kind to shy away from new experiences.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -432,25 +432,7 @@ questions = [
         }
     },
     {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
+        "question": "I like to do the same things that I always have done, the things that make sense to me.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -459,39 +441,57 @@ questions = [
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Drug use should be legalized or decriminalized.",
+        "question": "I can only be productive if I follow a structure.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 2
+            "scty": -10
+        }
+    },
+    {
+        "question": "I am hesitant to try new foods.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I can’t imagine not having a social group that I fully connect to.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I want to be able to learn things by doing rather than being taught.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "I feel as if I can’t break a habit, even if I want to. ",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Whenever I fail at something, I feel as if I can’t touch that thing for a while until I’ve recovered.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
         }
     },
     {
