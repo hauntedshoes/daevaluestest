@@ -495,7 +495,61 @@ questions = [
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "I feel as if I am often anticipating attacks or criticism from other people when I show them my work.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I like to take risks.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "People see me as an ambitious and career driven person.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "When I have to make a decision I weigh up advantages and disadvantages before being certain.  ",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I see myself as being able to quickly shift my behaviour in order to adapt or understand circumstances.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I rarely feel lonely. ",
+        "effect": {
+            "econ": -5,
+            "dipl": 5,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "I would hate to stick to a routine, especially if I could not change it. ",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -504,16 +558,25 @@ questions = [
         }
     },
     {
-        "question": "No cultures are superior to others.",
+        "question": "I feel at mercy to my physical environment. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
+            "econ": 5,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -5
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "I see myself as someone who sticks to traditions. ",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "I am wary to move out of what I find comfortable.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -522,75 +585,12 @@ questions = [
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Abortion should be prohibited in most or all cases.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "I like it when other people reassure me when I make decisions. ",
         "effect": {
             "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Prostitution should be illegal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Maintaining family values is essential.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
+            "dipl": 10,
             "govt": 0,
             "scty": -10
-        }
-    },
-    {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
         }
     },
     {
